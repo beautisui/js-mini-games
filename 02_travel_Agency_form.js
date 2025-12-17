@@ -12,8 +12,8 @@ const askingToTravel = confirm("   Want to refresh your mind By travelling?");
 
 function greet() {
   newLine();
-  let welcomeMsg = "   Welcome ";
-  let msgSegment = " To our Happy Travel Agency";
+  const  welcomeMsg = "   Welcome ";
+  const  msgSegment = " To our Happy Travel Agency";
 
   return welcomeMsg + customerName + msgSegment;
 }
@@ -52,6 +52,10 @@ function isDateValid(format, date) {
     }
   }
   return true;
+}
+
+function isDivisibleBy(number, divisor) {
+  return number % divisor === 0;
 }
 
 function isLeap(year) {
@@ -180,10 +184,6 @@ function takePhoneNumber() {
     return takePhoneNumber();
   }
   return mobileNumber;
-}
-
-function registrationProcess() {
-  newLine();
 }
 
 function askForPlace() {

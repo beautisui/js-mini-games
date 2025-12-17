@@ -1,4 +1,3 @@
-const ROAD = "_";
 const RABBIT = "🐇";
 const TORTOISE = "🐢";
 const DESTINATION = "⛳️";
@@ -13,6 +12,7 @@ function repeat(string, times) {
 
 function delay(time) {
   for (let delayTime = 0; delayTime <= time * 100000000; delayTime++) {
+    //
   }
 }
 
